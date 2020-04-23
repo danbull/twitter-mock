@@ -1,0 +1,13 @@
+.tweet {
+  display: flex;
+  padding: 1rem 1.5rem;
+  border: 1px solid gray;
+
+  &+.tweet {
+    border-top: none;
+  }
+}
+
+.tweet__body {
+  margin-left: 1rem;
+}
